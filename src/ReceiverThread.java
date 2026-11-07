@@ -20,7 +20,7 @@ public class ReceiverThread extends Thread {
                 System.out.println(msg);
             }
         } catch (Exception e) {
-
+            git push -u origin main
             System.out.println("Disconnected.");
         }
     }
